@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-item{
+    width: 100%;
+}
+
+
+.header__title{
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.header-item_title_line{
+    width: 105px;
+    height: 5px;
+    background-color: red;
+}
+
+.header__buttons{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: purple;
+}
+
+.header__button{
+    min-width: 57px;
+    height: 40px;
+    padding: 0px 10px;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid lightblue;
+    color:rgb(102, 140, 153);
+}
+
+.middle{
+    width: 100%;
+    /* padding: 0px 40px 0px 40px; */
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.middle__contents{
+    width: 2000px;
+    display: flex;
+    justify-content: center;
+}
+.middle__contents__menu-info-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2열로 정렬 */
+    gap: 20px; /* 요소 간격 */
+    max-width: 1500px; /*전체 박스 크기 조정*/
+    place-items: center;
+    width: 90%;
+    justify-content: center;
+}
+
+.menu-info{
+    width: 600px;
+    height: 180px;
+    background-color: lightblue;
+    display: flex;
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+.menu-info__box__img{
+    width: 250px;
+    height: 180px;
+    background-color: black;
+}
+
+.menu-info__box__description{
+    width: 350px;
+    height: 180px;
+    /* background-color: brown; */
+    padding-left: 10px;
+}
+
+.info__description__title{
+    width: 100%;
+    height: 20px;
+    /* background-color: aliceblue; */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+
+}
+
+.description__title__name{
+    width: fit-content;
+    /* background-color: blueviolet; */
+}
+.description__title__price{
+    width: fit-content;
+    /* background-color: blueviolet; */
+}
+
+.info-description-context{
+    padding: 10px 0px;
+}
