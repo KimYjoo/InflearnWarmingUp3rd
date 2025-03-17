@@ -86,3 +86,5 @@ fnc_make_menu_btn("breakfast", "Breakfast");
 fnc_make_menu_btn("lunch", "Lunch");
 fnc_make_menu_btn("shakes", "Shakes");
 fnc_make_menu_btn("dinner", "Dinner");
+
+fnc_btn_event_listener("all");
